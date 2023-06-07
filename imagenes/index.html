@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="" />
+    <title>Imagenes</title>
+</head>
+<body>
+    <header>
+            <img src="img/logo.png" alt="" width="400vh">
+            <div class="redes">
+                <a href="https://www.instagram.com/"><img src="img/insta.png" alt=""width="50vh"></a>
+                <a href="https://twitter.com/home?lang=es"><img src="img/tw.png" alt=""width="50vh"></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="img/mail.png" alt=""width="50vh"></a>
+            </div> 
+    </header>
+    <div class="menu">
+        <div class="topnav" id="myTopnav">
+            <a href="../inicio/index.html">INICIO</a>
+            <a href="../menu/index.html">CARTA</a>
+            <a href="../cocktails/index.html">COCKTAILS</a>
+            <a href="../imagenes/index.html">IMAGENES</a>
+            <a href="../entradas/index.html">ENTRADAS</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <div>
+    <div class="ful_img"id="fulImgBox">
+        <img src="img/1.jpg" id="fulImg"alt="">
+        <span onclick="closeImg()">x</span>
+    </div>
+    <br>
+    <h1><span>Galeria de imagenes</span></h1>
+    <div class="img_gallery">
+        <img src="img/1.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/2.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/3.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/4.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/5.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/6.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/7.jpg" onclick="openFulImg(this.src)" alt="">
+        <img src="img/8.jpg" onclick="openFulImg(this.src)" alt="">
+    </div>
+    </div>
+    <br><br><br><br><br>
+    <div class="politicas">
+		<div><a href="https://www.privacypolicies.com/live/2c863cd2-34f3-49ed-afb5-82102b4c0b31">Politicas</div><div> <a href="https://www.privacypolicies.com/live/2c863cd2-34f3-49ed-afb5-82102b4c0b31">Todos los derechos reservados</a></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

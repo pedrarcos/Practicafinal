@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" href="" />
+    <title>Entradas</title>
+</head>
+<body>
+    <header>
+            <img src="img/logo.png" alt="" width="400vh">
+            <div class="redes">
+                <a href="https://www.instagram.com/"><img src="img/insta.png" alt=""width="50vh"></a>
+                <a href="https://twitter.com/home?lang=es"><img src="img/tw.png" alt=""width="50vh"></a>
+                <a href="https://mail.google.com/mail/u/0/#inbox"><img src="img/mail.png" alt=""width="50vh"></a>
+            </div> 
+    </header>
+    <div class="menu">
+        <div class="topnav" id="myTopnav">
+            <a href="../inicio/index.html">INICIO</a>
+            <a href="../menu/index.html">CARTA</a>
+            <a href="../cocktails/index.html">COCKTAILS</a>
+            <a href="../imagenes/index.html">IMAGENES</a>
+            <a href="index.html">ENTRADAS</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    
+    <div class="inicio">
+        <div class="contenido">
+            <h3>Rellene para reservar</h3>
+            <div class="for">
+                <div class="tuto">
+                    <label>Nombre:</label><br>
+                    <input type="text" id="nombre" placeholder="Escriba su nombre"><p>
+                    <label>Apellidos</label><br>
+                    <input type="text" id="apellido" placeholder="Escriba sus Apellidos"><p>
+                    <label>Teléfono:</label><br>
+                    <input type="number" id="telefono" placeholder="Escriba su telefono"><p>
+                    <label>Correo electrónico:</label><br>
+                    <input type="text" id="correo" placeholder="Escriba su correo"><p>
+                </div>
+                <div class="tuto">
+                    <label>Confirmar correo electrónico:</label><br>
+                    <input type="text" id="confirmarCorreo" placeholder="Repita su correo"><p>
+                    <label>Fecha de la reserva:</label><br>
+                    <input type="date" id="fecha"><p>
+                    <label>Hora de la reserva:</label><br>
+                    <input type="time" id="hora"><p>
+                    <label>Número de personas:</label><br>
+                    <input type="number" id="num"><p>
+                    <button id="but" onclick="reserva()">ENVIAR</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="politicas">
+		<div><a href="https://www.privacypolicies.com/live/2c863cd2-34f3-49ed-afb5-82102b4c0b31">Politicas</div><div> <a href="https://www.privacypolicies.com/live/2c863cd2-34f3-49ed-afb5-82102b4c0b31">Todos los derechos reservados</a></div> 
+	</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
